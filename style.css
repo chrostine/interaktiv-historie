@@ -1,0 +1,172 @@
+
+body {
+  font-family: "Handjet", sans-serif;
+  display: flex;
+  justify-content: center;
+  background-color: dimgrey;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#app{
+  width: 800px;
+}
+
+main {
+  display:flex;
+  flex-direction: column;
+  
+}
+
+.screen {
+  background-color: #F2F0EF;
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+}
+
+.screen-img {
+  width: 500px;
+  height: 380px;
+  background-color: #2b2b2b;
+  background-image: url("images/nintendo.gif");
+  background-position: center;
+  background-size: cover;
+  box-shadow: inset 0px 0px 20px 10px rgba(0, 0, 0, 0.3);
+  border: solid;
+  border-width: 15px;
+  border-color: #2b2b2b;
+  border-radius: 5px;
+}
+
+
+.screen-text {
+  width: 460px;
+  height: 340px;
+  background-color: #171717;
+  background-size: cover;
+  padding: 20px;
+  font-size: 25px;
+  box-shadow: inset 0px 0px 20px 10px rgba(0,0,0,0.3);
+  border: solid;
+  border-width: 15px;
+  border-color: #2b2b2b;
+  border-radius: 5px;
+}
+
+.arrow-buttons-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-right: 15px;
+}
+
+.arrow-buttons-container-middle {
+  display: flex;
+  flex-direction: row;
+}
+
+.arrow-button-1 {
+  height: 50px;
+  width: 30px;
+  background-color: darkgray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.1);
+  font-size: 30px;
+}
+
+.arrow-button-2 {
+  height: 30px;
+  width: 50px;
+  background-color: darkgray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Handjet", sans-serif;
+  box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.1);
+  font-size: 30px;
+}
+
+.abc-buttons-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-left: 15px;
+}
+
+.abc-buttons-container-middle {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.abc-button {
+  height: 40px;
+  width: 40px;
+  background-color: darkgray;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.1);
+  font-size: 30px;
+}
+
+.new-text{
+  display: flex;
+  justify-content: center;
+}
+
+.new-options{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  gap: 3%;
+}
+
+.btn{
+  font-family: "Handjet", sans-serif;
+  font-size: 23px;
+  padding: 5px;
+  transition: all .2s ease-in-out;
+  background-color: #bf8a4a;
+  box-shadow: inset 0px 0px 10px 5px rgba(126, 64, 26, 0.3);
+  border-style: none;
+  border-radius: 5px;
+}
+
+.input-btn {
+  font-family: "Handjet", sans-serif;
+  font-size: 23px;
+  padding: 5px;
+  background-color: #dfc381;
+  box-shadow: inset 0px 0px 10px 5px rgba(126, 64, 26, 0.3);
+  border-style: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+.start-button {
+  font-family: "Handjet", sans-serif;
+  font-size: 60px;
+  transition: all .2s ease-in-out;
+  margin-top: 70px;
+}
+
+.start-button:hover {
+  transform: scale(1.05);
+}
